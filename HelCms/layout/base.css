@@ -1,0 +1,121 @@
+body
+{
+	background-image: url("../img/bglog.png");
+	font-size: 14px;
+}
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #dadada;
+	border: 2px solid #666;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	
+	
+}
+input[type=text]:focus,
+input[type=password]:focus
+{
+background-color: #ccffcc;
+}
+input[type=submit] 
+{	
+	background:url(../img/klodka.png);
+    background-repeat: no-repeat;
+    width:40px;
+    height:40px;
+	width: 300px;
+	background-color: #ffffcc;
+	border: 2px solid #666;
+	border-radius: 5px;
+	font-size:15px;
+	padding:10px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline:none;
+	margin-top: 20px;
+	
+}
+input[type=submit]:hover
+{
+	background-color: #ffff99;
+}
+div
+{
+	background-color: grey;	
+}
+#home
+{
+	margin: 0 auto;
+	width: 1200px;
+	border-color: #666;
+	border-style: 5px solid;
+	border-radius: 5px;
+
+}
+#login
+{
+	background-color: grey;
+	width: 300px;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 5px;
+	-webkit-box-shadow: 24px 26px 60px -25px #dadada;
+	-moz-box-shadow: 24px 26px 60px -25px #dadada;
+	box-shadow: 24px 26px 60px -25px #dadada;
+}
+#menu
+{
+	margin-top: 10px;
+	float: left;
+	width: 850px;
+	padding: 10px;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 5px;
+ 
+}
+#data
+{
+	
+	float: left;
+	margin-left: auto;
+	margin-top: 10px;
+    width: 850px;
+	padding: 10px;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 5px;
+	
+}
+
+#prawa
+{
+	margin-right:auto;
+	float: left;
+	width: 250px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-left:10px;
+	border-color: #666;
+	border-style: solid;
+	border-radius: 5px;
+	
+}
+
+.error
+{
+	color:#990000;
+	margin-top:10px;
+	margin_botom: 10px;
+}
